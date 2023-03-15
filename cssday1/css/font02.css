@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*행간만들기*/
+
+/* .font01  여백 30px*/
+.font01{
+    /* fontsize는 아래 보면 20임 */
+    line-height: 50px;
+}
+/* .font02 140%->실수로 */
+.font02{
+    line-height: 1.4;
+}
+
+
+
+/*weight하기*/
+/* .ect  Arial, Helvetica체, 사이즈는 20px로 설정*/
+.ect{
+    font-family: Arial, Helvetica;
+    font-size: 20px;
+}
+/* weigth01 폰트 굵기를 키워드로 가장 굵게*/ */
+.weight01{
+    font-weight: bolder;
+}
+/*. weigth02 폰트 굵기를 키워드로 가장 얇게*/
+.weight02{
+    font-weight: lighter;
+}
+/*. weigth03 폰트 굵기를 실수로 가장 얇게 */
+.weight03{
+    font-weight: 100;
+}
+/*. weigth04 폰트 굵기를 실수로 조금 두껍게 */
+.weight04{
+    font-weight: 700;
+}
+
+
+
+/*style만들기*/
+/* .style01 글자체 italic*/
+.style01{
+    font-style: italic;
+}
+/* .style02 글자체 oblique*/
+.style02{
+    font-style: oblique;
+}
+/* .style03 글자체 정자체 */
+/* html보면 원래 요소address는 기울이는 글씨었는데 css를 이용해서 정자로 바꿔줌 */
+/* address는 f12로 블록요소인지 알아보고 설정했다.  */
+/* p요소는 기본 폰트가 노멀이라 f12에 안써있다. */
+.style03{
+    font-style: normal;
+}

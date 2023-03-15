@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*#font01" "Times New Roman", Times */
+
+/*#font02" 나눔고딕 */
+
+/* .size  Arial, Helvetica체로 설정*/
+
+/* .font_01 글자크기25px */
+
+/* .font_02 글자크기75% */
+
+/* .font_03 글자크기1.5em */
+
+/* body가 커지면 알아서 커짐 */
+
+/* .font_04 글자크기 키워드로 아주 작게 -> 키워드는 외우기 */
+
+/* .font_05 글자크기 키워드로 조금 크게 */
+
+/* .font_06  글자크기 35px->em */
+
+/* body가 기준 16px가 기본 (본인)35 나누기 (기준 부모)16하면 2.1875임*/

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+/* id 선택하기:아이디 set01 -> clor red */
+
+
+/* class선택하기 : 클래스drink -> color yellow */
+
+/* 다중클래스 선택하기  클래스 special -> color:green */
+
+/* 자식요소 선택하기 아이디 set02의 자식ul -> 배경 pink*/
+
+/* set02의 자식아님ul은 형제임 */
+

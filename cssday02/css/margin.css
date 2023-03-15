@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{	height: 250px;
+	width:250px;}
+	/*  위에서 밑으로 100내리고 50올리고 150내림 */
+.box_01 {
+background-color: #990;
+margin-bottom: 100px;
+}
+.box_02 {
+background-color: #C00;
+margin: 50px 0 150px;
+/* 위 박스01과 겹침, box01의 100px과 box02의 50px이 겹침 이미지 첨부*/
+/* top bottom중 한 방향으로 하는게 좋음 */
+}
+.box_03 {
+	background-color: #F90;
+	margin: 0 auto;
+	/* left,right는 자동값이 있다.  */
+	/* 외부여백 left, right는 auto값이 있다. 웹에서 보면 좌우 똑같이 만들어준다.  */
+	/* 기본값은 0 */
+	/* margin은 -값이 있다.*/
+}

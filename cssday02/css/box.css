@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 가로: 800px 세로 500px 만들기 안의 여백 20px 보더 10px solid #000 만들기 */
+.box01{
+    /* width: 800px;
+    height: 500px;  잠시 sizing을 위해 주석처리*/
+    /* padding: 20px 20px 20px 20px; 20px같으 값을 단축형으로*/
+    padding: 20px;   
+    border-width: 10px;
+    /* border-width: 10px 10px 10px 10px; */
+    border-color: #000;
+    border-style: solid;
+    box-sizing: content-box;
+
+
+
+
+    /* boxsizing-를 콘테츠 박스로 지정해서  width: 800px;
+    height: 500px; 임padding: 20px;   
+    border-width: 10px;을 없애야800 500px됨 아래 계산   */
+    width:740px;
+    /* 800-20-20-10-10px */
+    height: 440px;
+    /* 500-20-20-10-10px */
+
+    background-color: pink;
+}
+
+p.box02{
+    width: 800px;height: 500px;
+    padding: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #000;
+    box-sizing: border-box;
+    background-color: green;
+    /* 크기 기준 값이 잇고 width/height기준이 있도 pading, boeder의 기준을 고려해야함 , 어떤것을 여백을 할지 말지 고려해야함 
+    f12로 보면서 어떻게 짤지 고민하기  */
+}
